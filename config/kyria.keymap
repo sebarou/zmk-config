@@ -30,7 +30,7 @@
 	                 &kp LGUI &kp LALT &kp LSHFT &kp SPACE &tog NAVI        &tog NAVI  &kp SPACE  &kp RSHFT  &kp BSPC &kp CAPS
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;
 		};
                   nav_layer{
                       bindings = <
@@ -40,7 +40,7 @@
 	                 &kp  &kp  &kp LSHFT &kp SPACE &tog NAVI        &tog NAVI  &kp SPACE  &kp RSHFT &kp BSPC &kp 
                          >;
               
-                          sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+                          sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;
 			  
 			  };
 			  
@@ -48,12 +48,12 @@
 		   rgb_layer{
                       bindings = <
         &kp ESC   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                                                &kp F6 &kp F7  &kp F8     &kp F9   &kp F10    &kp RBKT
-	&kp    &kp  &kp  &kp  &kp  &kp                                                 &kp  &kp   &kp      &kp    &kp F11 &kp 
-	&kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp         &kp  &rgb_ug  &kp  &kp   &kp  &kp  &kp F12 &kp 
-	                 &bt  &bt  &tog  &rgb_ug  &kp         &kp   &rgb_ug   &tog  &kp  &kp 
+	&kp    &kp  &kp  &kp  &kp  &kp                                                 &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI     &rgb_ug RGB_SPI   &kp F11 &kp 
+	&kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp               &rgb_ug RGB_TOG  &tog RGB &rgb_ug RGB_HUD &rgb_ug RGB_SAD  &rgb_ug RGB_BRD &rgb_ug RGB_SPD &kp F12 &kp 
+	                 &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &kp  &kp         &kp   &kp   &kp  &rgb_ug RGB_EFF &rgb_ug RGB_EFR
                          >;
               
-                          sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+                          sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;
 			  
 			  };
 			  };
