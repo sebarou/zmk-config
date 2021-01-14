@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+#include <dt-bindings/zmk/outputs.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -26,7 +26,7 @@
 			bindings = <
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp C_PP
 	&kp TAB &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp ENTER
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &bt BT_CLR &kp LEFT          &kp RIGHT  &tog RGB   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &bt BT_CLR &kp LEFT          &kp RIGHT  &tog RGB   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &out OUT_BLE
 	                 &kp LGUI &kp LCTRL &kp LALT &kp SPACE &tog NAVI        &tog NAVI  &kp SPACE  &kp RSHFT  &kp BSPC &kp CAPS
 			>;
 
