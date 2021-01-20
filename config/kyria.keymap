@@ -25,8 +25,8 @@
 //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 			bindings = <
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp C_PP
-	&kp TAB &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp ENTER
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &bt BT_CLR &kp LEFT          &kp RIGHT  &tog RGB   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &out OUT_BLE
+	&kp TAB &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp BSPC 
+	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &bt BT_CLR &kp LEFT          &kp RIGHT  &out OUT_BLE   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &ENTER
 	                 &kp LGUI &kp LCTRL &kp LALT &kp SPACE &tog NAVI        &tog NAVI  &kp SPACE  &kp RSHFT  &kp BSPC &kp CAPS
 			>;
 
@@ -45,16 +45,6 @@
 			  };
 			  
 			  
-		   rgb_layer{
-                      bindings = <
-        &kp ESC   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                                                &kp F6 &kp F7  &kp F8     &kp F9   &kp F10    &kp RBKT
-	&trans    &trans  &trans  &trans  &trans  &trans                                                 &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI     &rgb_ug RGB_SPI   &kp F11 &trans 
-	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &rgb_ug RGB_TOG  &tog RGB &rgb_ug RGB_HUD &rgb_ug RGB_SAD  &rgb_ug RGB_BRD &rgb_ug RGB_SPD &kp F12 &trans 
-	                 &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &trans  &trans         &trans   &trans   &trans  &rgb_ug RGB_EFF &rgb_ug RGB_EFR
-                         >;
-              
-                          sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;
-			  
-			  };
+	
 	};
 };
