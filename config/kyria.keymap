@@ -21,10 +21,11 @@
 // |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
 //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
+
 			bindings = <
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp PSCRN
 	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp ENTER
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp DEL &kp LEFT                   &kp RIGHT &&bt BT_CLR &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp DEL &kp LEFT                   &kp RIGHT &bt BT_CLR &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
 	                 &kp LGUI &kp RALT &kp RCTRL &kp SPACE &tog NAVI        &tog NAVI  &kp SPACE  &kp TAB &kp BSPC &kp CAPS
 			>;
 
