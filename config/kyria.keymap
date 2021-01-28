@@ -6,7 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
+
 
 #include <dt-bindings/zmk/rgb.h>
 
@@ -28,7 +28,7 @@
 			bindings = <
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp PSCRN
 	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp ENTER
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &rgb_ug RGB_TOG &kp LEFT                   &kp RIGHT &bt BT_CLR &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &rgb_ug RGB_TOG &kp LEFT                   &kp RIGHT &kp DEL &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
 	                 &kp LGUI &kp RALT &kp RCTRL &kp SPACE &tog NAVI        &tog NAVI  &kp SPACE  &kp TAB &kp BSPC &kp CAPS
 			>;
 
